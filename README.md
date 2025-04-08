@@ -7,17 +7,36 @@ how these broader economic conditions influence R&D investments across various i
 
 
 
-2. Data Sources:
-A. OECD Research and Development Expenditure Dataset: 
-   - Provides R&D expenditure data across countries and industries.
-   
-B. Economic Indicators: 
-   - Data on GDP growth, inflation rates, and unemployment, which can be sourced from Kaggle datasets or public data repositories like the World Bank.
-   
-C. Company Financial Data:
-   - Includes data on company performance, R&D investments, and financial metrics, which can be sourced from Kaggle or other financial databases.
+Data Sources:
+A. OECD Research and Development Expenditure Dataset (Main R&D Data Source):
 
+Dataset Name: "OECD Main Science and Technology Indicators (MSTI)"
 
+Source: OECD.STAT - MSTI Database
+
+Coverage: R&D expenditures by country, sector (e.g., business, government), and industry.
+
+Frequency: Annual
+
+Time Period: I will use data from 2010 to 2023 to reflect recent economic trends.
+
+B. Macroeconomic Indicators (Economic Conditions Data):
+
+GDP Growth, Inflation Rate, Unemployment Rate
+
+Primary Source: World Bank Open Data (data.worldbank.org)
+
+Time Period: 2010 to 2023 (aligned with R&D data)
+
+C. Company-Level Financial and R&D Data:
+
+Dataset Name: “Compustat North America Fundamentals Annual” or Kaggle dataset such as “Top Companies R&D Spend (Global)”
+
+Coverage: Financial metrics (e.g., revenue, net income) and R&D expenditures of major corporations.
+
+Industries: Focus on tech, chemical, and manufacturing sectors.
+
+Time Period: 2010 to 2023
 
 3. Data Collection Plan:
    - R&D Investment Data: 
