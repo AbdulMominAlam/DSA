@@ -1,76 +1,110 @@
+Evaluating the Effect of Economic Conditions on Corporate R&D Investments
 
-Title: Evaluating the Effect of Macro-economic Conditions on Corporate R&D Investments
+Objective
+Corporate investment in research and development (R&D) plays a crucial role in driving innovation, productivity, and long-term economic growth. However, such investment decisions are influenced by broader macroeconomic conditions, including GDP growth, inflation, unemployment, and government support. This project will explore how these economic factors impact R&D spending across different countries and over time.
 
-Objective:
-Corporate spending on research and development (R&D) is essential for driving innovation and maintaining a competitive edge in the global market. However, investment in R&D is significantly shaped by macroeconomic factors such as GDP growth, inflation, unemployment, government support, and export capacity. This project aims to evaluate how these broader economic conditions influence R&D spending across multiple countries between 2010 and 2023.
+Planned Data Collection & Preparation
+To conduct this analysis, I will combine data from reputable public sources using a structured and reproducible approach. With the assistance of ChatGPT, I will gather and align data from the following sources:
+OECD Science, Technology and Innovation Indicators
 
-Data Sources & Structure (Simulated Data):
-To facilitate a structured and focused analysis, the study utilizes synthetically generated datasets that mirror real-world macroeconomic and innovation data. The dataset includes information for 10 countries over a 14-year period (2010–2023).
 
-Dataset 1 – Macroeconomic Indicators:
+Dataset: Main Science and Technology Indicators (MSTI)
 
-Variables: GDP Growth (%), Inflation Rate (%), Unemployment Rate (%), R&D Spending (% of GDP)
 
-Description: Represents national-level economic performance and investment in R&D
+Data Points: R&D expenditure as a percentage of GDP, Government’s share of R&D funding
 
-Simulated based on trends found in OECD and World Bank data
 
-Dataset 2 – Government R&D Share:
+Coverage: Country-level, annual data (2010–2023)
 
-Variable: Government’s share of total R&D funding (% of national R&D budget)
 
-Description: Reflects the public sector's role in national innovation systems
+World Bank Open Data
 
-Dataset 3 – High-Tech Exports:
 
-Variable: High-tech exports as a percentage of total manufactured exports
+Indicators: GDP Growth (%), Inflation (%), Unemployment Rate (%)
 
-Description: Indicates industrial focus and export-driven innovation activity
 
-Countries Included (Synthetic Representations):
-Germany, South Korea, Japan, United States, United Kingdom, China, India, Brazil, South Africa, Turkey
+Description: Core macroeconomic variables to evaluate economic conditions
 
-Data Preparation & Merging:
-All datasets were merged on Country and Year.
 
-The final panel dataset contains 140 observations (10 countries × 14 years).
+Time Frame: 2010–2023
 
-Variables were normalized and preprocessed for visualization and machine learning modeling.
 
-Planned Methodology:
-Exploratory Data Analysis (EDA):
+Export and Innovation Data
 
-Use of correlation matrices, time-series plots, boxplots, and scatterplots
 
-Analyze how R&D spending trends differ based on economic indicators
+Source: World Bank and relevant OECD indicators
 
-Apply Principal Component Analysis (PCA) to simplify visualization of economic dimensions
 
-Hypothesis Testing:
+Variable: High-tech exports as a percentage of manufactured exports
 
-Formulate and test hypotheses such as:
 
-“Higher GDP growth leads to increased R&D investment”
+Purpose: To represent industrial innovation output
 
-“Inflation negatively correlates with R&D spending”
 
-Machine Learning Models:
+Using ChatGPT and Python (Pandas), I will clean, preprocess, and merge these datasets on the basis of Country and Year to create a single panel dataset. This merged dataset will serve as the foundation for both exploratory and predictive analysis.
 
-Apply supervised regression models to predict R&D spending:
+Countries to Be Included
+I plan to include 10 countries representing diverse economic and innovation profiles:
+ Germany, South Korea, Japan, United States, United Kingdom, China, India, Brazil, South Africa, and Turkey.
 
-Linear Regression, Decision Tree, Random Forest, XGBoost, k-Nearest Neighbors (kNN)
+Methodology
+Exploratory Data Analysis (EDA)
+ I will use statistical summaries and visualizations (e.g., heatmaps, time-series plots, boxplots) to understand how R&D investment correlates with macroeconomic indicators.
 
-Apply unsupervised learning:
 
-PCA and K-Means Clustering to reveal country groupings and innovation profiles
+Principal Component Analysis (PCA)
+ PCA will be used to reduce dimensionality and uncover key drivers of variance across countries’ innovation environments.
 
-Justification for Synthetic Data Use:
-Due to time constraints and challenges in aligning multiple public datasets across countries and years, real-world patterns were simulated using Python to reflect authentic relationships between economic conditions and innovation activity. This approach allows for focused exploration while maintaining academic relevance.
 
-Expected Outcome:
-Understand how macroeconomic factors drive or inhibit R&D investment
+Hypothesis Testing
+ I will develop and test several hypotheses, such as:
 
-Identify clusters of countries with similar innovation behaviors
+
+Higher GDP growth correlates with higher R&D spending
+
+
+Inflation and unemployment negatively impact R&D investment
+
+
+Government support enhances innovation outcomes
+
+
+Machine Learning Modeling
+ I will train and evaluate a range of models to predict R&D spending using macroeconomic inputs
+
+
+Linear Regression
+
+
+Decision Tree
+
+
+Random Forest
+
+
+XGBoost
+
+
+k-Nearest Neighbors (kNN)
+ I will also apply K-Means Clustering to identify groups of countries with similar innovation characteristics.
+
+
+
+Tools to Be Used
+I plan to use Google Colab for coding, Python (Pandas, Scikit-learn, Matplotlib, Seaborn) for data processing and modeling, and ChatGPT to support data alignment, code debugging, and result interpretation.
+
+Expected Outcomes
+By the end of the project, I aim to:
+Identify which economic factors are most strongly associated with national R&D investment
+
+
+Validate economic hypotheses using real-world data
+
+
+Develop machine learning models to predict R&D intensity based on macroeconomic indicators
+
+
+Classify countries into innovation clusters based on their economic and R&D profiles
 
 
 
