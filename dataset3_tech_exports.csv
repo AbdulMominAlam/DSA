@@ -1,0 +1,141 @@
+Country,Year,HighTech_Exports
+USA,2010,30.76
+USA,2011,21.35
+USA,2012,6.02
+USA,2013,11.25
+USA,2014,33.64
+USA,2015,31.36
+USA,2016,6.08
+USA,2017,13.88
+USA,2018,14.24
+USA,2019,31.88
+USA,2020,5.79
+USA,2021,9.16
+USA,2022,37.0
+USA,2023,12.14
+Germany,2010,31.11
+Germany,2011,14.53
+Germany,2012,8.98
+Germany,2013,14.73
+Germany,2014,33.89
+Germany,2015,39.23
+Germany,2016,38.21
+Germany,2017,20.89
+Germany,2018,31.72
+Germany,2019,13.2
+Germany,2020,16.73
+Germany,2021,40.85
+Germany,2022,5.52
+Germany,2023,8.42
+Japan,2010,13.32
+Japan,2011,6.06
+Japan,2012,12.26
+Japan,2013,28.32
+Japan,2014,21.86
+Japan,2015,40.71
+Japan,2016,37.7
+Japan,2017,18.67
+Japan,2018,15.38
+Japan,2019,20.19
+Japan,2020,28.61
+Japan,2021,15.72
+Japan,2022,29.97
+Japan,2023,21.38
+France,2010,27.08
+France,2011,22.45
+France,2012,16.78
+France,2013,42.94
+France,2014,35.54
+France,2015,10.6
+France,2016,39.74
+France,2017,24.5
+France,2018,40.78
+France,2019,36.99
+France,2020,22.01
+France,2021,5.9
+France,2022,15.75
+France,2023,26.67
+UK,2010,30.34
+UK,2011,15.32
+UK,2012,10.57
+UK,2013,38.4
+UK,2014,44.38
+UK,2015,26.03
+UK,2016,11.87
+UK,2017,15.89
+UK,2018,5.74
+UK,2019,41.57
+UK,2020,9.71
+UK,2021,28.06
+UK,2022,15.96
+UK,2023,27.17
+Canada,2010,31.06
+Canada,2011,38.19
+Canada,2012,13.26
+Canada,2013,5.44
+Canada,2014,10.48
+Canada,2015,41.0
+Canada,2016,39.96
+Canada,2017,28.9
+Canada,2018,29.02
+Canada,2019,31.6
+Canada,2020,12.01
+Canada,2021,41.58
+Canada,2022,21.75
+Canada,2023,20.33
+China,2010,25.76
+China,2011,6.88
+China,2012,11.65
+China,2013,34.52
+China,2014,8.31
+China,2015,29.13
+China,2016,14.81
+China,2017,20.57
+China,2018,16.55
+China,2019,19.23
+China,2020,33.76
+China,2021,16.88
+China,2022,27.66
+China,2023,24.04
+India,2010,31.55
+India,2011,42.47
+India,2012,34.3
+India,2013,13.6
+India,2014,6.25
+India,2015,15.49
+India,2016,28.8
+India,2017,7.06
+India,2018,24.85
+India,2019,28.87
+India,2020,18.37
+India,2021,35.84
+India,2022,9.26
+India,2023,8.01
+Brazil,2010,34.13
+Brazil,2011,24.82
+Brazil,2012,32.54
+Brazil,2013,22.39
+Brazil,2014,14.86
+Brazil,2015,37.76
+Brazil,2016,36.98
+Brazil,2017,32.79
+Brazil,2018,15.89
+Brazil,2019,28.61
+Brazil,2020,19.44
+Brazil,2021,8.66
+Brazil,2022,41.69
+Brazil,2023,10.47
+South Korea,2010,43.01
+South Korea,2011,22.84
+South Korea,2012,12.41
+South Korea,2013,26.68
+South Korea,2014,39.92
+South Korea,2015,34.29
+South Korea,2016,37.26
+South Korea,2017,31.35
+South Korea,2018,32.69
+South Korea,2019,38.97
+South Korea,2020,14.99
+South Korea,2021,24.58
+South Korea,2022,13.85
+South Korea,2023,44.51
