@@ -1,52 +1,76 @@
-# Evaluating the Effect of Economic Conditions on Corporate R&D Investments
 
-1. Project Proposal: 
-Corporate spending on research and development is essential for driving innovation and staying ahead in the market. However, factors like economic growth,
-inflation, and unemployment can have a major impact on how companies decide to allocate their resources, including their R&D budgets. This project will explore
-how these broader economic conditions influence R&D investments across various industries and countries.
+Title: Evaluating the Effect of Macro-economic Conditions on Corporate R&D Investments
 
+Objective:
+Corporate spending on research and development (R&D) is essential for driving innovation and maintaining a competitive edge in the global market. However, investment in R&D is significantly shaped by macroeconomic factors such as GDP growth, inflation, unemployment, government support, and export capacity. This project aims to evaluate how these broader economic conditions influence R&D spending across multiple countries between 2010 and 2023.
 
+Data Sources & Structure (Simulated Data):
+To facilitate a structured and focused analysis, the study utilizes synthetically generated datasets that mirror real-world macroeconomic and innovation data. The dataset includes information for 10 countries over a 14-year period (2010–2023).
 
-Data Sources:
-A. OECD Research and Development Expenditure Dataset (Main R&D Data Source):
+Dataset 1 – Macroeconomic Indicators:
 
-Dataset Name: "OECD Main Science and Technology Indicators (MSTI)"
+Variables: GDP Growth (%), Inflation Rate (%), Unemployment Rate (%), R&D Spending (% of GDP)
 
-Source: OECD.STAT - MSTI Database
+Description: Represents national-level economic performance and investment in R&D
 
-Coverage: R&D expenditures by country, sector (e.g., business, government), and industry.
+Simulated based on trends found in OECD and World Bank data
 
-Frequency: Annual
+Dataset 2 – Government R&D Share:
 
-Time Period: I will use data from 2010 to 2023 to reflect recent economic trends.
+Variable: Government’s share of total R&D funding (% of national R&D budget)
 
-B. Macroeconomic Indicators (Economic Conditions Data):
+Description: Reflects the public sector's role in national innovation systems
 
-GDP Growth, Inflation Rate, Unemployment Rate
+Dataset 3 – High-Tech Exports:
 
-Primary Source: World Bank Open Data (data.worldbank.org)
+Variable: High-tech exports as a percentage of total manufactured exports
 
-Time Period: 2010 to 2023 (aligned with R&D data)
+Description: Indicates industrial focus and export-driven innovation activity
 
-C. Company-Level Financial and R&D Data:
+Countries Included (Synthetic Representations):
+Germany, South Korea, Japan, United States, United Kingdom, China, India, Brazil, South Africa, Turkey
 
-Dataset Name: “Compustat North America Fundamentals Annual” or Kaggle dataset such as “Top Companies R&D Spend (Global)”
+Data Preparation & Merging:
+All datasets were merged on Country and Year.
 
-Coverage: Financial metrics (e.g., revenue, net income) and R&D expenditures of major corporations.
+The final panel dataset contains 140 observations (10 countries × 14 years).
 
-Industries: Focus on tech, chemical, and manufacturing sectors.
+Variables were normalized and preprocessed for visualization and machine learning modeling.
 
-Time Period: 2010 to 2023
+Planned Methodology:
+Exploratory Data Analysis (EDA):
 
-3. Data Collection Plan:
-   - R&D Investment Data: 
-   - I will download R&D expenditure data from the OECD dataset and financial reports of companies.
-   
-   - Macroeconomic Data:
-   - I will gather economic data from Kaggle datasets or trusted sources like the World Bank, focusing on GDP, inflation, and unemployment rates. Basically all economic indicators
-     related to my proposal.
+Use of correlation matrices, time-series plots, boxplots, and scatterplots
 
-   - Data Alignment:
-   - Take datasets from a similar timeline ie the same finiancial year, quarter etc.
+Analyze how R&D spending trends differ based on economic indicators
+
+Apply Principal Component Analysis (PCA) to simplify visualization of economic dimensions
+
+Hypothesis Testing:
+
+Formulate and test hypotheses such as:
+
+“Higher GDP growth leads to increased R&D investment”
+
+“Inflation negatively correlates with R&D spending”
+
+Machine Learning Models:
+
+Apply supervised regression models to predict R&D spending:
+
+Linear Regression, Decision Tree, Random Forest, XGBoost, k-Nearest Neighbors (kNN)
+
+Apply unsupervised learning:
+
+PCA and K-Means Clustering to reveal country groupings and innovation profiles
+
+Justification for Synthetic Data Use:
+Due to time constraints and challenges in aligning multiple public datasets across countries and years, real-world patterns were simulated using Python to reflect authentic relationships between economic conditions and innovation activity. This approach allows for focused exploration while maintaining academic relevance.
+
+Expected Outcome:
+Understand how macroeconomic factors drive or inhibit R&D investment
+
+Identify clusters of countries with similar innovation behaviors
+
 
 
