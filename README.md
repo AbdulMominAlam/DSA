@@ -48,12 +48,14 @@ Purpose: To represent industrial innovation output
 
 
 Using ChatGPT and Python (Pandas), I will clean, preprocess, and merge these datasets on the basis of Country and Year to create a single panel dataset. This merged dataset will serve as the foundation for both exploratory and predictive analysis.
+
 ---------------------------------------------------------------------------------------------------------
 
 Countries to Be Included
 
 I plan to include 10 countries representing diverse economic and innovation profiles:
  Germany, South Korea, Japan, United States, United Kingdom, China, India, Brazil, South Africa, and Turkey.
+ 
 ---------------------------------------------------------------------------------------------------------
 
 Methodology
